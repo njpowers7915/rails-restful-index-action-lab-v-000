@@ -195,3 +195,10 @@ Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 96.242.130.35 at 2018-06-26 12:27:23 +0000
+
+
+Started GET "/students" for 96.242.130.35 at 2018-06-26 12:28:22 +0000
+Processing by StudentsController#index as HTML
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 99ms (Views: 97.2ms | ActiveRecord: 0.2ms)
